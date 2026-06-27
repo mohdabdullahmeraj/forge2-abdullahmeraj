@@ -4,10 +4,10 @@ Goal: Add threaded comments to tickets with public/internal visibility (internal
 Models: Hermes=z-ai/glm-5.1, OpenClaw=moonshotai/kimi-k2.6
 
 ## Issues
-- [ ] #6 Comments model + migration + API (threaded replies, public/internal visibility)
-- [ ] #7 React frontend auth (login, register, Axios bearer token, protected routes, layout)
+- [x] #6 Comments model + migration + API (threaded replies, public/internal visibility)
+- [x] #7 React frontend auth (login, register, Axios bearer token, protected routes, layout)
 
 ## Outcome
-- Shipped: ...
-- Slipped / moved to next sprint: ...
-- PRs: ... (merged by me)
+- Shipped: Comment model + CommentType enum (public/internal) + migration (parent_id self-ref for threaded replies); CommentController (list, store, reply) with TenantScope; CommentRequest validation; CommentFactory; API routes + Feature tests. React auth layer: Login + Register pages, Axios bearer-token client (lib/api.js), ProtectedRoute, Layout app shell, Dashboard, Vite dev-proxy config.
+- Slipped / moved to next sprint: none
+- PRs: #8 #10 (merged by me)
