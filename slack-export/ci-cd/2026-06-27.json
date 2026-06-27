@@ -1,0 +1,266 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BEEDJJ3U0",
+        "text": "<@U0BEEDJJ3U0> has joined the channel",
+        "inviter": "U0BDGCXJ04V",
+        "type": "message",
+        "ts": "1782548532.313799"
+    },
+    {
+        "user": "U0BDGCXJ04V",
+        "type": "message",
+        "ts": "1782564324.783769",
+        "client_msg_id": "6447bda1-102d-4b88-8532-8033590e7e40",
+        "text": "CI Results — PulseDesk build (all green :white_check_mark:)\n\nPR #1 Organizations: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517> :white_check_mark:\nPR #2 Users with roles: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517> :white_check_mark:\nPR #3 Sanctum auth: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287374951> :white_check_mark:\nPR #5 Tickets model: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288176358> :white_check_mark:\nPR #6 Tickets API: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288362179> :white_check_mark:\nPR #8 Comments: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288970275> :white_check_mark:\nPR #10 React auth: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28289252095> :white_check_mark:\nPR #11 React tickets + docs: <https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28289565853> :white_check_mark:",
+        "team": "T0BDML37133",
+        "user_team": "T0BDML37133",
+        "source_team": "T0BDML37133",
+        "user_profile": {
+            "avatar_hash": "ee1b6d650d41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11465474491796_ee1b6d650d4137cfe84c_72.jpg",
+            "first_name": "Mohd.",
+            "real_name": "Mohd. Abdullah Meraj",
+            "display_name": "",
+            "team": "T0BDML37133",
+            "name": "mohdabdullahmeraj1705",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/opengraph.githubassets.com\/1a34f6ed70cb4d03c39262626afab1813e3d28d5dc248b63900f7a0ef64af983\/mohdabdullahmeraj\/forge2-abdullahmeraj",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 74186,
+                "from_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517",
+                "fallback": "GitHub: Merge pull request #2 from mohdabdullahmeraj\/feature\/issue-2-users · mohdabdullahmeraj\/forge2-abdullahmeraj@fdf2053",
+                "text": "Contribute to mohdabdullahmeraj\/forge2-abdullahmeraj development by creating an account on GitHub.",
+                "title": "Merge pull request #2 from mohdabdullahmeraj\/feature\/issue-2-users · mohdabdullahmeraj\/forge2-abdullahmeraj@fdf2053",
+                "title_link": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517",
+                "service_name": "GitHub"
+            },
+            {
+                "image_url": "https:\/\/opengraph.githubassets.com\/1a34f6ed70cb4d03c39262626afab1813e3d28d5dc248b63900f7a0ef64af983\/mohdabdullahmeraj\/forge2-abdullahmeraj",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 74186,
+                "from_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287374951",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 2,
+                "original_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287374951",
+                "fallback": "GitHub: Merge pull request #3 from mohdabdullahmeraj\/feature\/issue-3-auth · mohdabdullahmeraj\/forge2-abdullahmeraj@2028246",
+                "text": "Contribute to mohdabdullahmeraj\/forge2-abdullahmeraj development by creating an account on GitHub.",
+                "title": "Merge pull request #3 from mohdabdullahmeraj\/feature\/issue-3-auth · mohdabdullahmeraj\/forge2-abdullahmeraj@2028246",
+                "title_link": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287374951",
+                "service_name": "GitHub"
+            },
+            {
+                "image_url": "https:\/\/opengraph.githubassets.com\/1a34f6ed70cb4d03c39262626afab1813e3d28d5dc248b63900f7a0ef64af983\/mohdabdullahmeraj\/forge2-abdullahmeraj",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 74186,
+                "from_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288176358",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 3,
+                "original_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288176358",
+                "fallback": "GitHub: Merge pull request #5 from mohdabdullahmeraj\/feature\/issue-4-tickets-… · mohdabdullahmeraj\/forge2-abdullahmeraj@2b0f982",
+                "text": "Contribute to mohdabdullahmeraj\/forge2-abdullahmeraj development by creating an account on GitHub.",
+                "title": "Merge pull request #5 from mohdabdullahmeraj\/feature\/issue-4-tickets-… · mohdabdullahmeraj\/forge2-abdullahmeraj@2b0f982",
+                "title_link": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288176358",
+                "service_name": "GitHub"
+            },
+            {
+                "image_url": "https:\/\/opengraph.githubassets.com\/1a34f6ed70cb4d03c39262626afab1813e3d28d5dc248b63900f7a0ef64af983\/mohdabdullahmeraj\/forge2-abdullahmeraj",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 74186,
+                "from_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288362179",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 4,
+                "original_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288362179",
+                "fallback": "GitHub: Merge pull request #6 from mohdabdullahmeraj\/feature\/issue-5-tickets-api · mohdabdullahmeraj\/forge2-abdullahmeraj@99339e3",
+                "text": "Contribute to mohdabdullahmeraj\/forge2-abdullahmeraj development by creating an account on GitHub.",
+                "title": "Merge pull request #6 from mohdabdullahmeraj\/feature\/issue-5-tickets-api · mohdabdullahmeraj\/forge2-abdullahmeraj@99339e3",
+                "title_link": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288362179",
+                "service_name": "GitHub"
+            },
+            {
+                "image_url": "https:\/\/opengraph.githubassets.com\/1a34f6ed70cb4d03c39262626afab1813e3d28d5dc248b63900f7a0ef64af983\/mohdabdullahmeraj\/forge2-abdullahmeraj",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 74186,
+                "from_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288970275",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 5,
+                "original_url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288970275",
+                "fallback": "GitHub: Merge pull request #8 from mohdabdullahmeraj\/feature\/issue-6-comments · mohdabdullahmeraj\/forge2-abdullahmeraj@fe0e5e8",
+                "text": "Contribute to mohdabdullahmeraj\/forge2-abdullahmeraj development by creating an account on GitHub.",
+                "title": "Merge pull request #8 from mohdabdullahmeraj\/feature\/issue-6-comments · mohdabdullahmeraj\/forge2-abdullahmeraj@fe0e5e8",
+                "title_link": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288970275",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p6Xvx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "CI Results — PulseDesk build (all green "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\nPR #1 Organizations: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #2 Users with roles: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287104517"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #3 Sanctum auth: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28287374951"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #5 Tickets model: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288176358"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #6 Tickets API: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288362179"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #8 Comments: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28288970275"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #10 React auth: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28289252095"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #11 React tickets + docs: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mohdabdullahmeraj\/forge2-abdullahmeraj\/actions\/runs\/28289565853"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

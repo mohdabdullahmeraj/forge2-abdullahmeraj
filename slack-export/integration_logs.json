@@ -1,0 +1,13 @@
+[
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782553155,"change_type":"expanded","app_type":"pulsedesk-bot","app_id":"A0BDPE8LUG4"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782553155,"change_type":"added","app_type":"pulsedesk-bot","app_id":"A0BDPE8LUG4","scope":"identify,chat:write"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782552995,"change_type":"expanded","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782552995,"change_type":"added","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W","scope":"identify,chat:write"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782549531,"change_type":"expanded","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782549471,"change_type":"expanded","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782548388,"change_type":"added","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W"},
+{"user_id":0,"user_name":"slack","date":1782548249,"change_type":"app_collaborator_added","app_type":"openclaw-bot","app_id":"A0BDJ2FTA4W"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782547285,"change_type":"expanded","app_type":"pulsedesk-bot","app_id":"A0BDPE8LUG4"},
+{"user_id":"U0BDGCXJ04V","user_name":"mohdabdullahmeraj1705","date":1782540299,"change_type":"added","app_type":"pulsedesk-bot","app_id":"A0BDPE8LUG4"},
+{"user_id":0,"user_name":"slack","date":1782540157,"change_type":"app_collaborator_added","app_type":"pulsedesk-bot","app_id":"A0BDPE8LUG4"}
+]

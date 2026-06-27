@@ -1,0 +1,107 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BDGCXJ04V",
+        "text": "<@U0BDGCXJ04V> has joined the channel",
+        "type": "message",
+        "ts": "1782540036.087289"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDKR0LDH8",
+        "text": "<@U0BDKR0LDH8> has joined the channel",
+        "inviter": "U0BDGCXJ04V",
+        "type": "message",
+        "ts": "1782540463.529689"
+    },
+    {
+        "user": "U0BDKR0LDH8",
+        "type": "message",
+        "ts": "1782541291.468419",
+        "bot_id": "B0BDMLLE38R",
+        "app_id": "A0BDPE8LUG4",
+        "text": ":warning: Gateway shutting down — Your current task will be interrupted.",
+        "team": "T0BDML37133",
+        "bot_profile": {
+            "id": "B0BDMLLE38R",
+            "deleted": false,
+            "name": "pulsedesk-bot",
+            "updated": 1782540299,
+            "app_id": "A0BDPE8LUG4",
+            "user_id": "U0BDKR0LDH8",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "team_id": "T0BDML37133"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2h9uY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "warning",
+                                "unicode": "26a0-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Gateway shutting down — Your current task will be interrupted."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDKR0LDH8",
+        "type": "message",
+        "ts": "1782541401.561419",
+        "bot_id": "B0BDMLLE38R",
+        "app_id": "A0BDPE8LUG4",
+        "text": ":warning: Gateway shutting down — Your current task will be interrupted.",
+        "team": "T0BDML37133",
+        "bot_profile": {
+            "id": "B0BDMLLE38R",
+            "app_id": "A0BDPE8LUG4",
+            "user_id": "U0BDKR0LDH8",
+            "name": "pulsedesk-bot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782540299,
+            "team_id": "T0BDML37133"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Rm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "warning",
+                                "unicode": "26a0-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Gateway shutting down — Your current task will be interrupted."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

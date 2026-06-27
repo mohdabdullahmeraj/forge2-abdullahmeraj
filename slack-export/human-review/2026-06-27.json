@@ -1,0 +1,108 @@
+[
+    {
+        "user": "U0BDGCXJ04V",
+        "type": "message",
+        "ts": "1782564331.927909",
+        "client_msg_id": "3c3c5034-f7e6-41f7-a783-cc3e3c8dd666",
+        "text": "PR #1 reviewed — organizations migration clean, model correct. Merged to main. :white_check_mark:\nPR #2 reviewed — role enum correct, seeder working, 3 demo users created. Merged to main. :white_check_mark:\nPR #3 reviewed — auth endpoints tested, tenant scoping verified, tests passing. Merged to main. :white_check_mark:\nPR #5 reviewed — TenantScope verified, 12 tickets seeded across 2 orgs. Merged to main. :white_check_mark:\nPR #6 reviewed — multi-tenancy enforced, filters and search working. Merged to main. :white_check_mark:\nPR #8 reviewed — role-based comment visibility correct, 8 tests passing. Merged to main. :white_check_mark:\nPR #10 reviewed — React build succeeds, protected routes working, login\/register complete. Merged to main. :white_check_mark:\nPR #11 reviewed — ticket list\/detail UI working, README run steps verified, docs complete. Merged to main. :white_check_mark:",
+        "team": "T0BDML37133",
+        "user_team": "T0BDML37133",
+        "source_team": "T0BDML37133",
+        "user_profile": {
+            "avatar_hash": "ee1b6d650d41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11465474491796_ee1b6d650d4137cfe84c_72.jpg",
+            "first_name": "Mohd.",
+            "real_name": "Mohd. Abdullah Meraj",
+            "display_name": "",
+            "team": "T0BDML37133",
+            "name": "mohdabdullahmeraj1705",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+29KR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "PR #1 reviewed — organizations migration clean, model correct. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #2 reviewed — role enum correct, seeder working, 3 demo users created. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #3 reviewed — auth endpoints tested, tenant scoping verified, tests passing. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #5 reviewed — TenantScope verified, 12 tickets seeded across 2 orgs. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #6 reviewed — multi-tenancy enforced, filters and search working. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #8 reviewed — role-based comment visibility correct, 8 tests passing. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #10 reviewed — React build succeeds, protected routes working, login\/register complete. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPR #11 reviewed — ticket list\/detail UI working, README run steps verified, docs complete. Merged to main. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
