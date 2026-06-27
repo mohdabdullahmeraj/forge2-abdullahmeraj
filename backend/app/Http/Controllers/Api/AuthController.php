@@ -1,0 +1,70 @@
+<?php
+
+namespace App\Http\Controllers\Api;
+
+use App\Enums\Role;
+use App\Http\Requests\LoginRequest;
+use App\Http\Requests\RegisterRequest;
+use App\Models\Organization;
+use App\Models\User;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
+
+class AuthController
+{
+    public function register(RegisterRequest $request): JsonResponse
+    {
+        $org = Organization::create([
+            'name' => $request->organization_name,
+            'slug' => Str::slug($request->organization_name) . '-' . Str::uuid(),
+        ]);
+
+        $user = User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'organization_id' => $org->id,
+            'role' => Role::Admin->value,
+        ]);
+
+        $token = $user->createToken('api')->plainTextToken;
+
+        return response()->json([
+            'token' => $token,
+            'user' => $user->load('organization'),
+        ]);
+    }
+
+    public function login(LoginRequest $request): JsonResponse
+    {
+        $user = User::where('email', $request->email)->first();
+
+        if (! $user || ! Hash::check($request->password, $user->password)) {
+            throw ValidationException::withMessages([
+                'email' => ['The provided credentials are incorrect.'],
+            ]);
+        }
+
+        $token = $user->createToken('api')->plainTextToken;
+
+        return response()->json([
+            'token' => $token,
+            'user' => $user->load('organization'),
+        ]);
+    }
+
+    public function logout(Request $request): JsonResponse
+    {
+        $request->user()->currentAccessToken()->delete();
+
+        return response()->json(['message' => 'Logged out']);
+    }
+
+    public function user(Request $request): JsonResponse
+    {
+        return response()->json($request->user()->load('organization'));
+    }
+}
