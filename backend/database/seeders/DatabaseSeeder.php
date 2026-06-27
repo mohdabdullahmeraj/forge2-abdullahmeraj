@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use App\Enums\Role;
+use App\Enums\CommentType;
+use App\Models\Comment;
 use App\Models\Organization;
 use App\Models\Ticket;
 use App\Models\User;
@@ -90,5 +92,41 @@ class DatabaseSeeder extends Seeder
             'organization_id' => $globex->id,
             'requester_id' => $globexCustomer->id,
         ]);
+
+        // 2-3 comments per ticket (mix public/internal + threaded reply)
+        $allTickets = Ticket::all();
+        foreach ($allTickets as $ticket) {
+            $orgUsers = User::where('organization_id', $ticket->organization_id)->get();
+            $customer = $orgUsers->firstWhere('role', Role::Customer->value);
+            $agent = $orgUsers->firstWhere('role', Role::Agent->value);
+
+            // Public comment from customer
+            $parentComment = Comment::create([
+                'ticket_id' => $ticket->id,
+                'user_id' => $customer->id,
+                'organization_id' => $ticket->organization_id,
+                'body' => fake()->paragraph(),
+                'type' => CommentType::Public->value,
+            ]);
+
+            // Internal comment from agent
+            Comment::create([
+                'ticket_id' => $ticket->id,
+                'user_id' => $agent->id,
+                'organization_id' => $ticket->organization_id,
+                'body' => fake()->paragraph(),
+                'type' => CommentType::Internal->value,
+            ]);
+
+            // Threaded reply to public comment
+            Comment::create([
+                'ticket_id' => $ticket->id,
+                'user_id' => $agent->id,
+                'organization_id' => $ticket->organization_id,
+                'body' => fake()->paragraph(),
+                'type' => CommentType::Public->value,
+                'parent_id' => $parentComment->id,
+            ]);
+        }
     }
 }

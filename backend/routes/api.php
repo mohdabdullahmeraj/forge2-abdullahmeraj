@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\TicketController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +17,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/tickets/{ticket}', [TicketController::class, 'show']);
     Route::patch('/tickets/{ticket}', [TicketController::class, 'update']);
     Route::delete('/tickets/{ticket}', [TicketController::class, 'destroy']);
+
+    Route::get('/tickets/{ticket}/comments', [CommentController::class, 'index']);
+    Route::post('/tickets/{ticket}/comments', [CommentController::class, 'store']);
 });

@@ -2,28 +2,27 @@
 
 namespace App\Models;
 
-use App\Enums\Priority;
-use App\Enums\TicketStatus;
+use App\Enums\CommentType;
 use App\Models\Scopes\TenantScope;
-use Database\Factories\TicketFactory;
+use Database\Factories\CommentFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Builder;
 
 #[Fillable([
+    'ticket_id',
+    'user_id',
     'organization_id',
-    'requester_id',
-    'assignee_id',
-    'subject',
-    'description',
-    'status',
-    'priority',
+    'body',
+    'type',
+    'parent_id',
 ])]
-class Ticket extends Model
+class Comment extends Model
 {
-    /** @use HasFactory\u003cTicketFactory\u003e */
+    /** @use HasFactory\u003cCommentFactory\u003e */
     use HasFactory;
 
     protected static function booted(): void
@@ -31,31 +30,30 @@ class Ticket extends Model
         static::addGlobalScope(new TenantScope);
     }
 
-    public function organization(): BelongsTo
+    public function ticket(): BelongsTo
     {
-        return $this->belongsTo(Organization::class);
+        return $this->belongsTo(Ticket::class);
     }
 
-    public function requester(): BelongsTo
+    public function author(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'requester_id');
+        return $this->belongsTo(User::class, 'user_id');
     }
 
-    public function assignee(): BelongsTo
+    public function parent(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'assignee_id');
+        return $this->belongsTo(Comment::class, 'parent_id');
     }
 
-    public function comments(): HasMany
+    public function children(): HasMany
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(Comment::class, 'parent_id');
     }
 
     protected function casts(): array
     {
         return [
-            'status' => TicketStatus::class,
-            'priority' => Priority::class,
+            'type' => CommentType::class,
         ];
     }
 
