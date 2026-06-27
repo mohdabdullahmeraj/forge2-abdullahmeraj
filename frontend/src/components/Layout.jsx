@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import api from '../lib/api';
 
 function Layout({ children }) {
@@ -22,7 +22,8 @@ function Layout({ children }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="text-xl font-bold text-blue-600">PulseDesk</div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
+              <Link to="/tickets" className="text-sm text-gray-600 hover:text-blue-600 transition">Tickets</Link>
               <span className="text-sm text-gray-600">{user.name}</span>
               <button
                 onClick={handleLogout}
