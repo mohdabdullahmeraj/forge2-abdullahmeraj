@@ -2,9 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Enums\Role;
+use App\Models\Organization;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,11 +18,33 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        $acme = Organization::create([
+            'name' => 'Acme',
+            'slug' => 'acme',
+        ]);
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        User::create([
+            'name' => 'Acme Admin',
+            'email' => 'admin@acme.test',
+            'password' => Hash::make('password'),
+            'organization_id' => $acme->id,
+            'role' => Role::Admin->value,
+        ]);
+
+        User::create([
+            'name' => 'Acme Agent',
+            'email' => 'agent@acme.test',
+            'password' => Hash::make('password'),
+            'organization_id' => $acme->id,
+            'role' => Role::Agent->value,
+        ]);
+
+        User::create([
+            'name' => 'Acme Customer',
+            'email' => 'customer@acme.test',
+            'password' => Hash::make('password'),
+            'organization_id' => $acme->id,
+            'role' => Role::Customer->value,
         ]);
     }
 }
